@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Towers.jnlp">
+  <information>
+    <title>Towers</title>
+    <vendor>courtney</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Towers.jar" size="16895" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="towers.Towers"  name="Towers" />
+  <update check="always"/>
+</jnlp>
